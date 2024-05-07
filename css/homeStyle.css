@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #fff;
+    background-image: url(../img/sanxia.jpg);
+    background-size: cover;
+}
+.container{
+    position: relative;
+    width: 80%;
+    margin:0 auto;
+    background: rgba(245,245,245,0.5);
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 400px;
+}
+.full-width{
+    width: 100%;
+}
+.header{
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.login a{
+    font-weight: bold;
+    font-family:sans-serif;
+    font-size: larger;
+    color: black;
+    position: relative;
+    left: 90%;
+    text-decoration-line: none;
+}
+nav{
+    width: 100%;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    background: #093652;
+    overflow: hidden;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.active,
+nav ul li a:hover{
+    background:#9fb5cc;
+}
+.color-3{
+    width: 18%;
+    min-height: 400px;
+    background: #c5d9e5;
+    border-radius: 4px;
+    float:left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.color-7{
+    width: 80%;
+    border-radius: 4px;
+    min-height: 400px;
+    background: #c5d9e5;
+    float: right;
+}
+.color-7 p{
+    margin:10px 20px 0 20px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: medium;
+    line-height: 1.5;
+    text-indent: 2em;
+    
+}
+.color-7 p a{
+    position: relative;
+    left:85%;
+}
+
+.margin-top20px{
+    margin-top: 20px;
+
+}
+h1{
+    margin: 10px 0;
+}
+.color-3 ul{
+    margin: 0;
+    padding: 0;
+}
+.color-3 ul li{
+    list-style: none;
+    padding: 8px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    color: black;
+    font-family:sans-serif;
+}
+.color-3 ul li:hover{
+    background: #9fb5cc;
+    color: #fff;
+}
+.footer-text{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+@media(max-width:900px){
+    .container{
+        width: 100%;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+    }
+    .color-3,
+    .color-7{
+        width:100%;
+        float:none;
+    }
+    .color-7{
+        margin-top: 20px;
+    }
+    .login a{
+        left: 42%;
+    }
+}
+#come{
+    margin-top: 20px;
+    padding: 0;
+}
+#come a{
+    text-decoration: none;
+    color:black; 
+}
+
+.learnMore{
+    text-decoration: none;
+    color: rgb(122, 118, 118);
+}
+#resultGra{
+    margin: 30px 0 0 100px;
+    padding: 0;
+}
