@@ -17,7 +17,7 @@ function validForm(){
         ||(username === "2201080108" && password === "123456")
     ){
         // alert("登录成功！");
-        window.location.href = "../html/home.html";
+        window.location.href = "html/home.html";
         return false;
     }
     else{
