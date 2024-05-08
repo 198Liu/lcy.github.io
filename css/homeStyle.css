@@ -13,7 +13,7 @@ body{
     background: rgba(245,245,245,0.5);
     padding: 20px;
     box-sizing: border-box;
-    min-height: 400px;
+    min-height: 600px;
 }
 .full-width{
     width: 100%;
@@ -111,7 +111,7 @@ h1{
     color: #fff;
 }
 .footer-text{
-    padding-top: 20px;
+    padding-top: 100px;
     text-align: center;
     font-weight: bold;
 }
